@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="test_SM2018ABDI.js"></script>
+</head>
+    
+<body>
+    <p> Hello</p>
+    
+   <p id="trial"></p> 
+    
+    <button id="b" onclick="checkAnswer()">Siguiente</button>
+    
+    <script>
+    score = 0;
+    pos = 0;
+    qNum = [];
+    test = testIntegrator();
+    document.getElementById("trial").innerHTML = test[pos++]
+    function renderQuestion() {
+        document.getElementById("trial").innerHTML = test[pos++];
+        
+    }
+    </script>
+    <p> hello</p>
+    
+</body>
+
+</html>
+

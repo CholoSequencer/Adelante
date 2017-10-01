@@ -1,0 +1,38 @@
+
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.question {
+    font-weight: bold;
+}
+
+.container-fluid {
+    align-self: center;
+    text-align: center;
+}
+
+.prompt {
+    margin-top: 50px;
+}
+
+.questions {
+    font-weight: bold;
+}
+
+.btn-default {
+    margin-top: 10px;
+}
+.tracker {
+    margin-top: 20px;
+}
+
+.sequence {
+    align-self: center;
+    text-align: center;
+}

@@ -1,0 +1,64 @@
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.jumbotron {
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: #f4df41;
+    margin-bottom: 0px;
+}
+
+.subtitles {
+    align-self: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.subjects ul li{ 
+    padding: 5px 0px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.subjects {
+    text-align: center;
+}
+
+.subject {
+    align-self: center;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.subject.odd {
+//   background-color: #14d4f4;
+}
+.subject.odd a {
+    color:black;
+}
+
+.subject.even {
+//    background-color: #1cb0f6;
+}
+
+.subject.even a {
+    color: black;
+}
+
+p{
+    margin-top: 10px;
+}
+
+h1{
+    margin-bottom:20px;
+}
