@@ -79,6 +79,8 @@ var questions = [
     }
     {
         name: ,
+        subject:
+        sub_subject:
         prompt: ,
         image: ,
         question: ,
