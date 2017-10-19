@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+    button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius:15px;
+    float:right;
+    margin-bottom:7px;
+    }
+    button:focus {outline:0;}
+
+    /* Add a background color on hover */
+    button:hover {
+        background-color: #3e8e41;
+    }
+        
+    br {line-height:150%;}
+
+    </style>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML-full">
+</script>
+    <script src="test_SM2016IICE.js"></script>
+</head>
+    
+<body>
+    <h1>SAN MARCOS EXAMEN 2016 II C-E</h1>
+    <!--<h1>\(3\frac{1}{4}\) y \(\mathrm{3\frac{1}{4}}\) y \(\textrm{3\frac{1}{4}}\) y \(\operatorname{3\frac{1}{4}}\) y \(\mathrm{\frac{N}{2}}\) y (\(\mathscr{C}\) y \(\mathrm{(4-\frac{uppi}{2})u^2}\) y \((4-\frac{\pi}{2})u^2\) y \(\mathrm{\pi}\) y  \(\pi\) y \(\mathscr{l}\) = \(\mathrm{3\sqrt{2}}\) y \(\mathrm{\overline{AC}}\) y \(\overline{AC}\) y \(\mathrm{62\pi}\) y \(62\pi \mathrm{m^2}\) y \(\mathrm{m^2}\) y \((8^{10}+1)^2\) y \((8^{5})^2+1\) a \(\in\Re\) y a \(\neq\) 0 y \(\mathrm{a^2 + \frac{1}{a}\ge2}\) y \(a^2 + \frac{1}{a^2}\ge2\)y \(\mathrm{a^2 - a}\gt2\) y $$\begin{cases}\sqrt{xy} = 0\\2y+x=-5\\-x+z=-3\end{cases}$$ y \(P\mathscr{l}_5\) y \(P_4+C\mathscr{l}_2\rightarrow PC\mathscr{l}_5\) y (\(2\sqrt{3} + \textrm{1,5}\)) m y \(\frac{\cos a - \textrm{sec }a}{\csc a} - \sec a}\) y \(\mathrm{\theta}\) y \(\theta\) y \(\arc A\) y \(\newcommand{arc}[1]{\stackrel{\frown}{#1}}\arc{A}\) y \(\smallfrown{A}\) y \(\widehat{A}\) y 90° y \(\mathrm{90°}\) y \(90°\) y \(\mathscr{L}\) y \(\sqrt{x + y}\) y \(\frac{3x - 2}{2x -3}\lt 0\)</h1>-->
+    <p id="trial"></p> 
+    <button id="b" onclick="checkAnswer()">Siguiente</button>
+    
+    <script>
+    score = 0;
+    pos = 0;
+    qNum = [];
+    test = testIntegrator();
+    document.getElementById("trial").innerHTML = test[pos++]
+    function renderQuestion() {
+        document.getElementById("trial").innerHTML = test[pos++];
+        MathJax.Hub.Typeset();
+    }
+    </script>
+    
+</body>
+
+</html>

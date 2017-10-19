@@ -1384,7 +1384,7 @@ var questions = [
     },
     {
         name: "2018iABD94",
-        subject: "Sciences",
+        subject: "Social Sciences",
         sub_subject: "Economy",
         prompt: false,
         image: false,
@@ -1398,7 +1398,7 @@ var questions = [
     },
     {
         name: "2018iABD95",
-        subject: "Sciences",
+        subject: "Social Sciences",
         sub_subject: "Economy",
         prompt: false,
         image: false,
@@ -1412,7 +1412,7 @@ var questions = [
     },
     {
         name: "2018iABD96",
-        subject: "Sciences",
+        subject: "Social Sciences",
         sub_subject: "Economy",
         prompt: false,
         image: false,

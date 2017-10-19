@@ -17,22 +17,25 @@
     float:right;
     margin-bottom:7px;
     }
-        button:focus {outline:0;}
+    button:focus {outline:0;}
 
-/* Add a background color on hover */
-button:hover {
-    background-color: #3e8e41;
-}
+    /* Add a background color on hover */
+    button:hover {
+        background-color: #3e8e41;
+    }
+        
+    br {line-height:150%;}
 
     </style>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML-full">
+</script>
     <script src="test_SM2018CEI.js"></script>
 </head>
     
 <body>
-    <h1>SAN MARCOS EXAMEN 2018 I A-B-D</h1>
-    
-   <p id="trial"></p> 
-    
+    <h1>SAN MARCOS EXAMEN 2018 I C-E</h1>
+    <p id="trial"></p> 
     <button id="b" onclick="checkAnswer()">Siguiente</button>
     
     <script>
@@ -43,7 +46,7 @@ button:hover {
     document.getElementById("trial").innerHTML = test[pos++]
     function renderQuestion() {
         document.getElementById("trial").innerHTML = test[pos++];
-        
+        MathJax.Hub.Typeset();
     }
     </script>
     
