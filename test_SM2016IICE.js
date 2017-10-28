@@ -632,7 +632,7 @@ var questions = [
 		sub_subject: "Logic",
 		prompt: false,
 		image: false,
-		question: "Una tubería debe atravesar diagonalmente un terreno rectangular de 50 m2 de área, cuyo largo es el doble de su ancho. Determine la longitud de la tubería.",
+		question: "Una tubería debe atravesar diagonalmente un terreno rectangular de 50 \\(\\mathrm{m^2}\\) de área, cuyo largo es el doble de su ancho. Determine la longitud de la tubería.",
 		A: "\\(3\\sqrt{3}\\) m",
 		B: "\\(3\\sqrt{5}\\) c",
 		C: "\\(5\\sqrt{3}\\) m",
@@ -754,7 +754,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE46",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Algebra",
 		prompt: false,
 		image: false,
@@ -768,7 +768,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE47",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Algebra",
 		prompt: false,
 		image: false,
@@ -782,7 +782,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE48",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Algebra",
 		prompt: false,
 		image: false,
@@ -796,7 +796,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE49",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Geometry",
 		prompt: false,
 		image: false,
@@ -810,7 +810,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE50",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Geometry",
 		prompt: false,
 		image: false,
@@ -824,7 +824,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE51",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Geometry",
 		prompt: false,
 		image: false,
@@ -838,7 +838,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE52",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Geometry",
 		prompt: false,
 		image: false,
@@ -852,7 +852,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE53",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Trigonometry",
 		prompt: false,
 		image: false,
@@ -866,7 +866,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE54",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Trigonometry",
 		prompt: false,
 		image: false,
@@ -880,7 +880,7 @@ var questions = [
 	},
 	{
 		name: "2016iiCE55",
-		subject: "KM",
+		subject: "MK",
 		sub_subject: "Trigonometry",
 		prompt: false,
 		image: false,
